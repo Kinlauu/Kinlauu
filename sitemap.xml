@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://mydomain.org/mysite/</loc>
+         <loc>https://mydomain.org/mysite/index.html</loc>
          <lastmod>2025-02-04</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/tag/</loc>
+         <loc>https://mydomain.org/mysite/tag.html</loc>
          <lastmod>2025-02-04</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/blog/</loc>
+         <loc>https://mydomain.org/mysite/blog/index.html</loc>
          <lastmod>2025-02-04</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/work/000/</loc>
+         <loc>https://mydomain.org/mysite/work/000.html</loc>
          <lastmod>2025-02-04</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/work/test03/</loc>
+         <loc>https://mydomain.org/mysite/work/test03.html</loc>
          <lastmod>2025-02-04</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/work/work/</loc>
+         <loc>https://mydomain.org/mysite/work/work.html</loc>
          <lastmod>2025-02-04</lastmod>
     </url>
 </urlset>
