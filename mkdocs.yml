@@ -78,6 +78,22 @@ theme:
     - content.action.edit
     - content.action.view
     - content.code.annotate 
+    - content.action.edit # 编辑按钮
+    - content.action.view # 查看源代码按钮
+    - content.code.copy # 支持代码块复制
+    - navigation.footer # 上一页和下一页
+    - navigation.tabs # 一级导航在横着的导航栏
+    - content.code.annotate # 可以在代码块中增添点击展示的注释，参见 https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations
+    # - navigation.tracking # 地址栏中的 URL 会随当前位置变化为对应小节的 URL
+    - navigation.indexes # 将 index 页面直接附到小节名上
+    - navigation.top # 回到顶部按钮
+    # - navigation.sections # 二级导航是粗体
+    # - navigation.expand # 导航默认展开
+    - toc.follow # toc 跟随
+    # - toc.integrate # 文档 toc 集成到总目录中 
+    - search.suggest
+    - search.highlight
+    - search.share
 
 #插件设置
 plugins:
