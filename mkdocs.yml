@@ -1,7 +1,134 @@
 site_name: My Docs
 site_url: https://mydomain.org/mysite
+
+#导航栏设置
+nav:
+  #类别
+  - 工作: 
+      - 第一层: 
+        - 测试01: work/work.md
+        - 测试02: work/000.md
+      - 第二层: 
+        - 测试02: work/000.md
+  - 标签: tag.md
+
+
+
+#[UI]界面设置
 theme:
   name: material
+  #改变语言
+  language: zh
+  #切换主题颜色
   palette:
-    scheme: white
-    promary: purple
+     # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+        primary: indigo
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        primary: indigo
+  #改变字体
+  font:
+    text: Roboto
+  features: 
+    - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
+    - navigation.instant 
+    #- header.autohide  #自动隐藏
+    - navigation.instant.progress
+    # - navigation.prune #渲染的 HTML 中仅包含可见的导航项
+    - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
+    - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+    # - navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
+    - navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - navigation.footer #页脚将呈现在边栏中，但在移动设备上保持原样
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+    - search.share #搜索分享按钮
+    - navigation.expand # 打开Tab时左侧目录全部展开
+    - navigation.indexes #启用节索引页后，可以将文档直接附加到节
+    - content.tabs.link
+    - content.tooltips
+    - content.code.copy
+    - content.code.select
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate 
+
+#插件设置
+plugins:
+  - blog:
+      post_date_format: full #时间
+      draft: true
+      draft_if_future_date: true #自动将具有未来日期的帖子标记为草稿
+      post_readtime: true
+      post_readtime_words_per_minute: 265  #计算帖子的阅读时间时读者每分钟预计阅读的字数
+      post_url_format: "{date}/{slug}"
+      # categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+      #   kwds:
+      #     case: lower
+      # categories_toc: true
+      # pagination_per_page: 5
+      pagination_url_format: "page/{page}"
+  
+  - tags:
+      tags_file: tag.md  #分类标签
+
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+#右上角搜索设置
+#edit_uri: edit/main/docs # 编辑按钮跳转的链接 
+#repo_url: https://github.com/Kinlauu/mkdocs # 右上角点击跳转的链接
+#repo_name: Kinlauu.github.io # 右上角的名字
+
+#markdown扩展
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+  # - callouts
+  - md_in_html
+  - markdown.extensions.abbr # 支持Markdown文件上方自定义标题标签等
+  - pymdownx.magiclink
+  - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format 
+  - pymdownx.arithmatex:  # latex支持
+      generic: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+
+
