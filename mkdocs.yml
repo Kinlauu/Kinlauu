@@ -188,8 +188,8 @@ extra_javascript:
 
 
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/extra2.css  
+  #- stylesheets/extra.css
+  #- stylesheets/extra2.css  
   #- stylesheets/link.css  #友链
   #- stylesheets/customize.css  #按钮圆角化
   # - stylesheets/flink.css
