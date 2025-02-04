@@ -95,7 +95,6 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-
 #插件设置
 plugins:
   - blog:
