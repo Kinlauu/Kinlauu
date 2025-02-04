@@ -5,7 +5,9 @@ site_url: https://mydomain.org/mysite
 nav:
   #类别
   - 工作: 
+      - work/work.md
       - 第一层: 
+        - work/work.md
         - 测试01: work/work.md
         - 测试02: work/000.md
         - 测试02: work/000.md
