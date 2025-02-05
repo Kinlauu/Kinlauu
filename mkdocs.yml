@@ -10,8 +10,16 @@ nav:
         - work/work.md
   - EMM: 
       - EMM/index.md
-      - 保送: 
+      - 保送名单: 
         - EMM/University/index.md
+        - 2023届:
+          - EMM/University/2023届.md
+        - 2024届: 
+          - EMM/University/2024届.md
+        - 2025届:
+          - EMM/University/2025届.md
+
+        
 
 
   - 标签: tag.md
