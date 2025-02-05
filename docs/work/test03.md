@@ -1,5 +1,0 @@
----
-title : abc
-hide:
----
-avs

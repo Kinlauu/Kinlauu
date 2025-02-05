@@ -5,28 +5,14 @@ site_url: https://mydomain.org/mysite
 nav:
   #类别
   - 工作: 
-      - work/work.md
+      - work/index.md
       - 第一层: 
         - work/work.md
-        - 测试01: work/work.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-      - 第二层: 
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-      - 第三层: 
-        - 测试02: work/000.md
-        - 测试02: work/000.md
-        - 测试02: work/000.md
+  - EMM: 
+      - EMM/index.md
+      - 保送: 
+        - EMM/University/index.md
+
 
   - 标签: tag.md
 
