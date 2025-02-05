@@ -9,15 +9,19 @@
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/EMM/index.html</loc>
+         <lastmod>2025-02-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/EMM/University/index.html</loc>
+         <lastmod>2025-02-05</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/blog/index.html</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/work/000.html</loc>
-         <lastmod>2025-02-05</lastmod>
-    </url>
-    <url>
-         <loc>https://mydomain.org/mysite/work/test03.html</loc>
+         <loc>https://mydomain.org/mysite/work/index.html</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
