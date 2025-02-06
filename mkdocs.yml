@@ -10,15 +10,22 @@ nav:
         - work/work.md
 
   - EMM: 
-    - EMM/index.md
-    - 保送名单: 
-        - EMM/University/index.md
-        - 2023届: EMM/University/2023届.md
-        - 2024届: EMM/University/2024届.md
-        - 2025届: EMM/University/2025届.md
+    - 前言: EMM/index.md
+    - 总览: EMM/Contents.md
+    - 保送: 
+        #- EMM/University/index.md
+        - 收录名单: 
+          - 2023届: EMM/University/保送名单/2023届.md
+          - 2024届: EMM/University/保送名单/2024届.md
+          - 2025届: EMM/University/保送名单/2025届.md
+        - 联招材料:
+          - 2023届: EMM/University/保送材料/2023届.md
+          - 2024届: EMM/University/保送材料/2024届.md
+          - 2025届: EMM/University/保送材料/2025届.md
+
         
     - 奖/助学金: 
-        - EMM/Scholarship/index.md
+        #- EMM/Scholarship/index.md
         - 澳门奖/助学金:  EMM/Scholarship/澳门.md
         - 国内奖/助学金:  EMM/Scholarship/国内.md
         
@@ -38,13 +45,13 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-        primary: indigo
+        primary: grey
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-        primary: indigo
+        primary: grey
   #改变字体
   font:
     text: Roboto
