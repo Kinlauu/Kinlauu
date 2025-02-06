@@ -15,6 +15,7 @@ nav:
     - 保送: 
         #- EMM/University/index.md
         - 收录名单: 
+          - 2022届: EMM/University/保送名单/2022届.md
           - 2023届: EMM/University/保送名单/2023届.md
           - 2024届: EMM/University/保送名单/2024届.md
           - 2025届: EMM/University/保送名单/2025届.md
@@ -30,6 +31,9 @@ nav:
         - 国内奖/助学金:  EMM/Scholarship/国内.md
         
   - 标签: tag.md
+
+  - Else: 
+    - Else/test.md
 
 
 
