@@ -8,16 +8,21 @@ nav:
       - work/index.md
       - 通识: 
         - work/work.md
-  - 学习:
+  - ISEE: 
+      - Study/ISEE/index.md
+      - 场波:
+        - Study/ISEE/场波/index.md
+        - Study/ISEE/场波/场波.md
+        - Study/ISEE/场波/麦克斯韦方程组.md
+      - 信号与系统:
+        - Study/ISEE/信号与系统/导览.md
+        - Study/ISEE/信号与系统/Lec01-基础导论.md
+        - Study/ISEE/信号与系统/Lec02-DT&CT.md
+  #- 学习:
       # - study/index.md
       # - 通识: 
         
-      - ISEE: 
-          - 场波:
-            - Study/ISEE/场波/场波.md
-            - Study/ISEE/场波/麦克斯韦方程组.md
-          - 信号与系统:
-            - Study/ISEE/信号与系统/导览.md
+      
           
   - EMM: 
     - 前言: EMM/index.md
@@ -110,6 +115,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    
 #插件设置
 plugins:
   - blog:
