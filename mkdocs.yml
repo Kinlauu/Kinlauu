@@ -4,10 +4,19 @@ site_url: https://mydomain.org/mysite
 #导航栏设置
 nav:
   #类别
-  - 工作: 
+  - Work: 
       - work/index.md
       - 通识: 
         - work/work.md
+  - RM:
+    - RM/机械组自学内容一览.md
+    - 培训:
+      - RM/PPT/Lec.01材料与工艺培训.md
+      - RM/PPT/Lec.02传动.md
+      - RM/PPT/Lec.03轴系.md
+      - RM/PPT/Lec.04专用零件设计及加工原理.md
+      - RM/PPT/Lec.05动力元件-机架-总体设计.md
+
   - ISEE: 
       - Study/ISEE/index.md
       - 场波:
@@ -18,6 +27,7 @@ nav:
         - Study/ISEE/信号与系统/导览.md
         - Study/ISEE/信号与系统/Lec01-基础导论.md
         - Study/ISEE/信号与系统/Lec02-DT&CT.md
+        - Study/ISEE/信号与系统/Lec03-Feedback.md
   #- 学习:
       # - study/index.md
       # - 通识: 
@@ -45,7 +55,7 @@ nav:
         - 澳门奖/助学金:  EMM/Scholarship/澳门.md
         - 国内奖/助学金:  EMM/Scholarship/国内.md
         
-  - 标签: tag.md
+  - Tag: tag.md
 
   - Else: 
     - Else/test.md

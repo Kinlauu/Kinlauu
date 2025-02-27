@@ -26,10 +26,11 @@
 
 <img src="images\image-20250220101912845.png" alt="image-20250220101912845" style="zoom:50%;" />
 
+# Building-Block Signals
 
-# 冲激信号&阶跃信号-Building-Block Signals
+# 冲激信号&阶跃信号
 
-## 单位冲激信号-Unit-Impulse Signals 
+## 冲激信号-Unit-Impulse Signals 
 
 
 <img src="images\image-20250220103222397.png" alt="image-20250220103222397" style="zoom:67%;" />
@@ -57,7 +58,7 @@
 
 ----
 
-## 单位阶跃信号-Unit-Step Signals 
+## 阶跃信号-Unit-Step Signals 
 
 <img src="images\image-20250220103627339.png" alt="image-20250220103627339" style="zoom:67%;" />
 
@@ -106,16 +107,12 @@
 !!!note
 
     |a| < 1 拉伸
-
+    
     |a| > 1 压缩
 
 ![image-20250220105506532](images\image-20250220105506532.png)
 
-
-
-#### 例题
-
-##### 1. 
+**Ex**.
 
 ![image-20250220105631893](images\image-20250220105631893.png)
 
@@ -160,6 +157,7 @@
      只考虑x（t）内 t 是否会与未来相关（是不是输出在输入之后发生的），因果系统只依赖于当时刻，不能预测未来
 
  
+
 
 ## 稳定系统-BIBO
 
