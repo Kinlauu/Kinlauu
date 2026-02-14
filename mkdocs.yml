@@ -17,17 +17,8 @@ nav:
       - RM/PPT/Lec.04专用零件设计及加工原理.md
       - RM/PPT/Lec.05动力元件-机架-总体设计.md
 
-  - ISEE: 
-      - Study/ISEE/index.md
-      - 场波:
-        - Study/ISEE/场波/index.md
-        - Study/ISEE/场波/场波.md
-        - Study/ISEE/场波/麦克斯韦方程组.md
-      - 信号与系统:
-        - Study/ISEE/信号与系统/导览.md
-        - Study/ISEE/信号与系统/Lec01-基础导论.md
-        - Study/ISEE/信号与系统/Lec02-DT&CT.md
-        - Study/ISEE/信号与系统/Lec03-Feedback.md
+  #- ISEE: 
+      #- Study/ISEE/index.md
   #- 学习:
       # - study/index.md
       # - 通识: 
@@ -50,6 +41,10 @@ nav:
           - 2024届: EMM/University/保送材料/2024届.md
           - 2025届: EMM/University/保送材料/2025届.md
           - 2026届: EMM/University/保送材料/2026届.md
+        - ZJUers:
+          - 问题汇总: EMM\University\ZJUers\问题汇总.md
+          - 个人陈述: EMM\University\ZJUers\个人陈述.md
+          - 自我介绍: EMM\University\ZJUers\自我介绍.md
 
         
     - 奖/助学金: 
