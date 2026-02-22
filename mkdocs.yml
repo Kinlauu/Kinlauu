@@ -22,8 +22,6 @@ nav:
   #- 学习:
       # - study/index.md
       # - 通识: 
-        
-      
           
   - EMM: 
     - 前言: EMM/index.md
@@ -37,14 +35,16 @@ nav:
           - 2025届: EMM/University/保送名单/2025届.md
           - 2026届: EMM/University/保送名单/2026届.md
         - 联招材料:
-          - 2023届: EMM/University/保送材料/2023届.md
-          - 2024届: EMM/University/保送材料/2024届.md
-          - 2025届: EMM/University/保送材料/2025届.md
-          - 2026届: EMM/University/保送材料/2026届.md
+          - 总览: EMM/University/保送材料/总览.md
+          # - 2023届: EMM/University/保送材料/2023届.md
+          # - 2024届: EMM/University/保送材料/2024届.md
+          # - 2025届: EMM/University/保送材料/2025届.md
+          # - 2026届: EMM/University/保送材料/2026届.md
         - ZJUers:
-          - 问题汇总: EMM/University/ZJUers/问题汇总.md
-          - 个人陈述: EMM/University/ZJUers/个人陈述.md
-          - 自我介绍: EMM/University/ZJUers/自我介绍.md
+          - 总览: EMM/University/ZJUers/总览.md
+          # - 问题汇总: EMM/University/ZJUers/问题汇总.md
+          # - 个人陈述: EMM/University/ZJUers/个人陈述.md
+          # - 自我介绍: EMM/University/ZJUers/自我介绍.md
 
     - 奖/助学金: 
         #- EMM/Scholarship/index.md
