@@ -57,15 +57,12 @@ nav:
     
     - Master:
         - EMM/Master/index.md
-        - 港澳台研招总结:
-          - EMM/Master/港澳台研招政策.md
-        - 港澳台考研材料:
-          - EMM/Master/港澳台考研材料/港澳台考研材料.md
+        - 港澳台研招总览: EMM/Master/港澳台研招政策.md
+        - 港澳台考研材料: EMM/Master/港澳台考研材料/港澳台考研材料.md
         - ZJUers:
-          - 信电保研政策: 
-            - EMM/Master/ZJUers/25港澳台保研公示.md
-          - 25级港澳台保研公示: 
-            - EMM/Master/ZJUers/25港澳台保研公示.md
+          - 信电保研政策:  EMM/Master/ZJUers/浙大信电保研政策.md
+          - 信电导师方向:  EMM/Master/ZJUers/信电导师方向.xlsx
+          - 25级港澳台保研公示: EMM/Master/ZJUers/25港澳台保研公示.md
 
   - Tag: tag.md
 
