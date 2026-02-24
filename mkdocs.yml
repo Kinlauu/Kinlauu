@@ -23,7 +23,7 @@ nav:
       # - study/index.md
       # - 通识: 
           
-  - EMM: 
+  - University: 
     - 前言: EMM/index.md
     - 总览: EMM/Contents.md
     - 保送: 
@@ -42,7 +42,7 @@ nav:
           # - 2025届: EMM/University/保送材料/2025届.md
           # - 2026届: EMM/University/保送材料/2026届.md
         - ZJUers: 
-          -  EMM/University/ZJUers/index.md
+          - EMM/University/ZJUers/index.md
           # - 问题汇总: EMM/University/ZJUers/问题汇总.md
           # - 个人陈述: EMM/University/ZJUers/个人陈述.md
           # - 自我介绍: EMM/University/ZJUers/自我介绍.md

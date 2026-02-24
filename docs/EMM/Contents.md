@@ -20,8 +20,6 @@ title: Contents
 
  
 #### 联招材料
-  - [2024届](https://kinlauu.github.io/Kinlauu/EMM/University/%E4%BF%9D%E9%80%81%E6%9D%90%E6%96%99/2024%E5%B1%8A.html)
-  - [2025届](https://kinlauu.github.io/Kinlauu/EMM/University/%E4%BF%9D%E9%80%81%E6%9D%90%E6%96%99/2025%E5%B1%8A.html)
 
  ---
 
