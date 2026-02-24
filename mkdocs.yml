@@ -23,7 +23,7 @@ nav:
       # - study/index.md
       # - 通识: 
           
-  - University: 
+  - University: #EMM
     - 前言: EMM/index.md
     - 总览: EMM/Contents.md
     - 保送: 
@@ -54,7 +54,19 @@ nav:
         #- EMM/Scholarship/index.md
         - 澳门奖/助学金:  EMM/Scholarship/澳门.md
         - 国内奖/助学金:  EMM/Scholarship/国内.md
-        
+    
+    - Master:
+        - EMM/Master/index.md
+        - 港澳台研招总结:
+          - EMM/Master/港澳台研招政策.md
+        - 港澳台考研材料:
+          - EMM/Master/港澳台考研材料/港澳台考研材料.md
+        - ZJUers:
+          - 信电保研政策: 
+            - EMM/Master/ZJUers/25港澳台保研公示.md
+          - 25级港澳台保研公示: 
+            - EMM/Master/ZJUers/25港澳台保研公示.md
+
   - Tag: tag.md
 
   - Else: 
