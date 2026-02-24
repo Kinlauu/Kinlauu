@@ -56,8 +56,8 @@ nav:
         - 国内奖/助学金:  EMM/Scholarship/国内.md
     
     - Master:
-        - EMM/Master/index.md
-        - 港澳台研招总览: EMM/Master/港澳台研招政策.md
+        # - EMM/Master/index.md
+        - 研招总览: EMM/Master/港澳台研招政策.md
         - 港澳台考研材料: EMM/Master/港澳台考研材料/港澳台考研材料.md
         - ZJUers:
           - 信电保研政策:  EMM/Master/ZJUers/浙大信电保研政策.md
@@ -75,6 +75,7 @@ nav:
 theme:
   name: material
   #改变语言
+  custom_dir: docs/overrides
   language: zh
   #切换主题颜色
   palette:
