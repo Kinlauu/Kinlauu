@@ -75,7 +75,7 @@ nav:
 theme:
   name: material
   #改变语言
-  # custom_dir: docs/overrides
+  custom_dir: docs/overrides
   language: zh
   #切换主题颜色
   palette:
