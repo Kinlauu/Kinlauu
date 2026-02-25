@@ -159,6 +159,9 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
   - offline
+  
+
+use_directory_urls: true
 
  
 #右上角搜索设置
