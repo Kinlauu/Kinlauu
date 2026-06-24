@@ -1,0 +1,3240 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mydomain.org/mysite/work/%E7%BB%93%E6%9E%84%E5%B2%97/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6%E6%A1%86%E6%9E%B6.html">
+      
+      
+        <link rel="prev" href="%E6%9C%BA%E6%A2%B0%E5%A4%8D%E4%B9%A0%E6%B8%85%E5%8D%95.html">
+      
+      
+        <link rel="next" href="%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%85%A5%E9%97%A8.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>工程力学框架 - Kinlau's Blog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra2.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/bannerSlider.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="Kinlau&#39;s Blog" class="md-header__button md-logo" aria-label="Kinlau's Blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Kinlau's Blog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              工程力学框架
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Work
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../RM/%E6%9C%BA%E6%A2%B0%E7%BB%84%E8%87%AA%E5%AD%A6%E5%86%85%E5%AE%B9%E4%B8%80%E8%A7%88.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  RM
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../EMM/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  University
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../tag.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tag
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Else/test.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Else
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Kinlau&#39;s Blog" class="md-nav__button md-logo" aria-label="Kinlau's Blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Kinlau's Blog
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Work
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Work
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1_2" id="__nav_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    结构岗
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    结构岗
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../work.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1_2_2" id="__nav_1_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    学习资料
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    学习资料
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E6%9C%BA%E6%A2%B0%E5%A4%8D%E4%B9%A0%E6%B8%85%E5%8D%95.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    拓竹结构岗 · 备考复习清单
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工程力学框架
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6%E6%A1%86%E6%9E%B6.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工程力学框架
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#content-0041" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、工程力学概述 *Content-[00:41]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、工程力学概述 *Content-[00:41]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-0041_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        实际应用案例 *Content-[00:41]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-0334" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、工程力学的两大组成部分 *Content-[03:34]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、工程力学的两大组成部分 *Content-[03:34]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-content-0342" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 理论力学（静力学部分）*Content-[03:42]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-content-0436" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 材料力学 *Content-[04:36]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-0514" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、静力学（受力分析）*Content-[05:14]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、静力学（受力分析）*Content-[05:14]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-0529" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        桥梁受力分析示例 *Content-[05:29]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-0808" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        静力学主要内容（四个核心点）*Content-[08:08]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-1022" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、材料力学（变形固体与构件）*Content-[10:22]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、材料力学（变形固体与构件）*Content-[10:22]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-1131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        研究对象 *Content-[11:31]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-1231" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        杆件的受力类型（五种外力作用）*Content-[12:31]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-1318" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        研究内容：强度、刚度、稳定性 *Content-[13:18]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、基本构件知识点详解
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、基本构件知识点详解">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-content-1557" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 轴向拉压杆 *Content-[15:57]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-content-1750" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 扭转（圆轴） *Content-[17:50]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-content-1938" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 弯曲（梁） *Content-[19:38]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-2156" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、组合变形 *Content-[21:56]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、组合变形 *Content-[21:56]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-2204" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        类型一：轴向力 + 弯曲/剪切 *Content-[22:04]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-2403" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        类型二：弯曲 + 扭转 *Content-[24:03]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-2525" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        七、压杆稳定性 *Content-[25:25]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="七、压杆稳定性 *Content-[25:25]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-2630" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        研究方法 *Content-[26:30]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-2717" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        八、总结 *Content-[27:17]
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI 总结
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%85%A5%E9%97%A8.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    理论力学入门概念与应用笔记
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6%E5%85%A5%E9%97%A8.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    材料力学入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="3D%E6%89%93%E5%8D%B060%2B%E7%A7%8D%E8%80%97%E6%9D%90%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%E6%94%B6%E8%97%8F%E8%BF%99%E4%BA%9B%E8%A1%A8%E5%B0%B1%E5%A4%9F%E4%BA%86%E3%80%82%E8%80%97%E6%9D%90%E5%90%8E%E7%BC%80%E5%A4%A7%E5%85%A8%E7%B3%BB%E5%88%97%E8%AE%B2%E8%A7%A3%E8%A7%86%E9%A2%91%E6%94%B6%E5%AE%98%EF%BC%8C60%E7%A7%8D%E6%9D%90%E6%96%99%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E9%80%89%E5%AF%B9.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D打印60+种耗材怎么选？收藏这些表就够了。耗材后缀大全系列讲解视频收官，60种材料一套逻辑选对
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E4%BB%8EPC%E5%88%B0PEEK%EF%BC%8C3D%E6%89%93%E5%8D%B0%E7%89%B9%E7%A7%8D%E5%B7%A5%E7%A8%8B%E5%A1%91%E6%96%99%E8%80%97%E6%9D%90%E6%8C%87%E5%8D%97%EF%BC%8C%E5%B0%BC%E9%BE%99%E5%85%A8%E5%AE%B6%E6%A1%B6%EF%BC%9APA6%E3%80%81PA12%E3%80%81PC%E3%80%81PEI%E3%80%81PEEK%E4%B8%80%E6%AC%A1%E8%AE%B2%E6%B8%85%E6%A5%9A.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    从PC到PEEK，3D打印特种工程塑料耗材指南，尼龙全家桶：PA6、PA12、PC、PEI、PEEK一次讲清楚
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E9%87%91%E5%8D%9A%E5%A3%AB%E7%A2%B3%E7%BA%A4%E7%BB%B43D%E6%89%93%E5%8D%B0%E6%BC%94%E8%AE%B2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    金博士碳纤维3D打印演讲
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RM
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    RM
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../RM/%E6%9C%BA%E6%A2%B0%E7%BB%84%E8%87%AA%E5%AD%A6%E5%86%85%E5%AE%B9%E4%B8%80%E8%A7%88.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    机械组自学内容一览
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    培训
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    培训
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../RM/PPT/Lec.01%E6%9D%90%E6%96%99%E4%B8%8E%E5%B7%A5%E8%89%BA%E5%9F%B9%E8%AE%AD.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lec.01材料与工艺培训
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../RM/PPT/Lec.02%E4%BC%A0%E5%8A%A8.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lec.02传动
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../RM/PPT/Lec.03%E8%BD%B4%E7%B3%BB.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lec.03轴系
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../RM/PPT/Lec.04%E4%B8%93%E7%94%A8%E9%9B%B6%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%8F%8A%E5%8A%A0%E5%B7%A5%E5%8E%9F%E7%90%86.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lec.04专用零件设计及加工原理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../RM/PPT/Lec.05%E5%8A%A8%E5%8A%9B%E5%85%83%E4%BB%B6-%E6%9C%BA%E6%9E%B6-%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lec.05动力元件 机架 总体设计
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../EMM/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    University
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    University
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/Contents.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    总览
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    保送
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    保送
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_1" id="__nav_3_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    收录名单
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    收录名单
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/University/%E4%BF%9D%E9%80%81%E5%90%8D%E5%8D%95/2022%E5%B1%8A.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2022届
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/University/%E4%BF%9D%E9%80%81%E5%90%8D%E5%8D%95/2023%E5%B1%8A.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2023届
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/University/%E4%BF%9D%E9%80%81%E5%90%8D%E5%8D%95/2024%E5%B1%8A.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2024届
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/University/%E4%BF%9D%E9%80%81%E5%90%8D%E5%8D%95/2025%E5%B1%8A.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2025届
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/University/%E4%BF%9D%E9%80%81%E5%90%8D%E5%8D%95/2026%E5%B1%8A.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026届
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../EMM/University/%E4%BF%9D%E9%80%81%E6%9D%90%E6%96%99/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    联招材料
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    联招材料
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../EMM/University/ZJUers/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ZJUers
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ZJUers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../EMM/University/Else/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ELSE
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ELSE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    奖/助学金
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    奖/助学金
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/Scholarship/%E6%BE%B3%E9%97%A8.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    澳门奖/助学金
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/Scholarship/%E5%9B%BD%E5%86%85.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    国内奖/助学金
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Master
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Master
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/Master/%E6%B8%AF%E6%BE%B3%E5%8F%B0%E7%A0%94%E6%8B%9B%E6%94%BF%E7%AD%96.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    研招总览
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/Master/%E6%B8%AF%E6%BE%B3%E5%8F%B0%E8%80%83%E7%A0%94%E6%9D%90%E6%96%99/%E6%B8%AF%E6%BE%B3%E5%8F%B0%E8%80%83%E7%A0%94%E6%9D%90%E6%96%99.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    港澳台考研材料
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_3" id="__nav_3_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ZJUers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ZJUers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/Master/ZJUers/%E6%B5%99%E5%A4%A7%E4%BF%A1%E7%94%B5%E4%BF%9D%E7%A0%94%E6%94%BF%E7%AD%96.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    信电保研政策
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/Master/ZJUers/%E4%BF%A1%E7%94%B5%E5%AF%BC%E5%B8%88%E6%96%B9%E5%90%91.xlsx" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    信电导师方向
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EMM/Master/ZJUers/25%E6%B8%AF%E6%BE%B3%E5%8F%B0%E4%BF%9D%E7%A0%94%E5%85%AC%E7%A4%BA.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    25级港澳台保研公示
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tag.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Else
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Else
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Else/test.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Test
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#content-0041" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、工程力学概述 *Content-[00:41]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、工程力学概述 *Content-[00:41]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-0041_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        实际应用案例 *Content-[00:41]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-0334" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、工程力学的两大组成部分 *Content-[03:34]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、工程力学的两大组成部分 *Content-[03:34]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-content-0342" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 理论力学（静力学部分）*Content-[03:42]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-content-0436" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 材料力学 *Content-[04:36]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-0514" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、静力学（受力分析）*Content-[05:14]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、静力学（受力分析）*Content-[05:14]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-0529" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        桥梁受力分析示例 *Content-[05:29]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-0808" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        静力学主要内容（四个核心点）*Content-[08:08]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-1022" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、材料力学（变形固体与构件）*Content-[10:22]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、材料力学（变形固体与构件）*Content-[10:22]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-1131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        研究对象 *Content-[11:31]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-1231" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        杆件的受力类型（五种外力作用）*Content-[12:31]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-1318" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        研究内容：强度、刚度、稳定性 *Content-[13:18]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、基本构件知识点详解
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、基本构件知识点详解">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-content-1557" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 轴向拉压杆 *Content-[15:57]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-content-1750" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 扭转（圆轴） *Content-[17:50]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-content-1938" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 弯曲（梁） *Content-[19:38]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-2156" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、组合变形 *Content-[21:56]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、组合变形 *Content-[21:56]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-2204" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        类型一：轴向力 + 弯曲/剪切 *Content-[22:04]
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-2403" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        类型二：弯曲 + 扭转 *Content-[24:03]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-2525" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        七、压杆稳定性 *Content-[25:25]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="七、压杆稳定性 *Content-[25:25]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#content-2630" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        研究方法 *Content-[26:30]
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-2717" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        八、总结 *Content-[27:17]
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI 总结
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<blockquote>
+<p>来源链接：<a href="https://www.bilibili.com/video/BV1Gp4y1L7V6/?spm_id_from=333.337.search-card.all.click&amp;vd_source=e1b4d71d327e91bf7653d57bd6c3644d">https://www.bilibili.com/video/BV1Gp4y1L7V6/?spm_id_from=333.337.search-card.all.click&amp;vd_source=e1b4d71d327e91bf7653d57bd6c3644d</a></p>
+</blockquote>
+<h1 id="_1">工程力学框架梳理笔记<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="content-0041">一、工程力学概述 *Content-[00:41]<a class="headerlink" href="#content-0041" title="Permanent link">&para;</a></h2>
+<p>*Content-[00:29] 工程力学的学习目标是：理清知识脉络，将知识点有规律地串联起来，做到事半功倍。</p>
+<p>*Content-[00:37] 在学习之前，需要思考三个问题：
+1.  工程力学是什么？
+2.  需要掌握什么内容？
+3.  能够解决什么问题？</p>
+<h3 id="content-0041_1">实际应用案例 *Content-[00:41]<a class="headerlink" href="#content-0041_1" title="Permanent link">&para;</a></h3>
+<p>*Content-[00:41] 视频通过三个常见物体（电线杆、龙门架、自行车）引入问题：如果没有学习工程力学，能否设计这些构件？</p>
+<p><em>Content-[01:02] 凭直觉设计的问题：
+-   *</em>电线杆<strong>：随便找一根木头杆子
+-   **龙门架</strong>：找两根钢管焊接
+-   <strong>自行车</strong>：找钢筋焊接成三角架</p>
+<p>*Content-[01:23] 实际工程中的问题：
+-   简单的钢管组合龙门架可能未安装设备就已损坏
+-   木头电线杆已被空心钢管取代
+-   钢筋焊接的自行车架不具备实用性</p>
+<p><em>Content-[01:43] 工程力学的作用：通过</em><em>理论力学</em><em>和</em><em>材料力学</em><em>的基本理论，对基本构件进行</em><em>受力分析</em>*。</p>
+<p><em>Content-[02:27] 完成受力分析后，可以对结构进行</em><em>强度</em><em>、</em><em>刚度</em><em>以及</em><em>稳定性</em>*的验算，满足这三项要求即满足安全要求。</p>
+<p><em>Content-[02:47] 但安全不是唯一标准，还需要考虑：
+-   *</em>实用性<strong>：例如钢筋自行车架太重、减震性差，不实用
+-   **经济性</strong>：钢筋比空心钢管便宜，但综合考量后并非最佳选择</p>
+<p><em>Content-[03:28] 工程力学的核心是：对</em><em>安全</em><em>、</em><em>实用性</em><em>和</em><em>经济性</em>*进行综合考量与取舍。</p>
+<h2 id="content-0334">二、工程力学的两大组成部分 *Content-[03:34]<a class="headerlink" href="#content-0334" title="Permanent link">&para;</a></h2>
+<p><em>Content-[03:34] 工程力学包含两部分：</em><em>理论力学</em><em>和</em><em>材料力学</em>*。</p>
+<h3 id="1-content-0342">1. 理论力学（静力学部分）*Content-[03:42]<a class="headerlink" href="#1-content-0342" title="Permanent link">&para;</a></h3>
+<p><em>Content-[03:42] 工程力学中的理论力学</em><em>只包含静力学部分</em>*。理论力学本身包含运动学、动力学、静力学三部分，此处只研究静力学。</p>
+<p><em>Content-[04:07] 理论力学的作用：研究物体机械运动的基本规律，是材料力学分析的基础。
+-   *</em>重要性<strong>：基础不牢，后续的材料力学分析无法开展
+-   **学习建议</strong>：打好基础，确保受力分析不出错</p>
+<h3 id="2-content-0436">2. 材料力学 *Content-[04:36]<a class="headerlink" href="#2-content-0436" title="Permanent link">&para;</a></h3>
+<p><em>Content-[04:39] 有了静力学的受力分析，材料力学研究：
+-   材料在各种外力作用下产生的</em><em>应变</em><em>、</em><em>应力</em>*
+-   材料的<strong>强度</strong>、<strong>刚度</strong>及<strong>稳定性</strong>
+-   导致各种材料破坏的<strong>极限分析</strong></p>
+<p><em>Content-[05:01] 核心任务：找出材料破坏的极限，并在设计时</em><em>避开这个极限</em>*，使其不被破坏。</p>
+<h2 id="content-0514">三、静力学（受力分析）*Content-[05:14]<a class="headerlink" href="#content-0514" title="Permanent link">&para;</a></h2>
+<p><em>Content-[05:16] 静力学在工程力学中的主要作用：对复杂物体进行</em><em>受力分析</em>*，把复杂的力简洁明了地表示出来。</p>
+<h3 id="content-0529">桥梁受力分析示例 *Content-[05:29]<a class="headerlink" href="#content-0529" title="Permanent link">&para;</a></h3>
+<p>*Content-[05:29] 以桥梁验算为例，说明静力学的应用步骤：</p>
+<ol>
+<li>
+<p><strong>简化</strong>：将复杂的桥面简化成一条<strong>直线</strong>，视为一个<strong>刚体</strong>（受力时大小形状均不改变的理想化模型）。</p>
+</li>
+<li>
+<p><strong>添加约束</strong>：桥台、桥墩提供<strong>支撑力</strong>（约束反力），使桥面达到平衡状态。</p>
+</li>
+<li>
+<p><strong>添加外部载荷</strong>：车辆、行人、路灯、栏杆、自重（混凝土、沥青材料）、风载荷、雪载荷。</p>
+</li>
+<li>
+<p><strong>形成力系</strong>：所有已知载荷和未知的约束反力共同构成一个<strong>力系</strong>。</p>
+</li>
+</ol>
+<p><em>Content-[07:08] 受力分析完成后，通过</em><em>平衡方程</em>*求解未知的约束反力。</p>
+<h3 id="content-0808">静力学主要内容（四个核心点）*Content-[08:08]<a class="headerlink" href="#content-0808" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p><strong>力的基本概念</strong> *Content-[08:16]</p>
+<ul>
+<li>对复杂物体进行简化（如桥梁简化为直线）</li>
+<li>引入<strong>刚体</strong>概念（忽略微小变形）</li>
+<li>引入<strong>约束反力</strong>（限制物体运动的力，如桥墩支撑力）</li>
+<li>引入<strong>力系</strong>（所有作用力的集合）</li>
+<li>引入<strong>五个公理</strong>及<strong>两个推论</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>受力分析</strong> *Content-[09:43]</p>
+<ul>
+<li>正式进行物体的受力分析</li>
+</ul>
+</li>
+<li>
+<p><strong>平衡条件与平衡方程</strong> *Content-[09:55]</p>
+<ul>
+<li>区分已知力和未知力</li>
+<li>建立<strong>平衡方程</strong>进行求解（有多少个未知力就建立多少个平衡方程）</li>
+</ul>
+</li>
+<li>
+<p><strong>求解未知力</strong> *Content-[10:09]</p>
+<ul>
+<li>求解出所有未知力和已知力</li>
+<li>为下一步进行强度、刚度及稳定性验算奠定基础</li>
+</ul>
+</li>
+</ol>
+<h2 id="content-1022">四、材料力学（变形固体与构件）*Content-[10:22]<a class="headerlink" href="#content-1022" title="Permanent link">&para;</a></h2>
+<p><em>Content-[10:25] 材料力学研究的是</em><em>变形固体</em>*，与刚体不同，认为所有物体都是变形固体（如手指压桌面，桌面微观上也会变形）。</p>
+<h3 id="content-1131">研究对象 *Content-[11:31]<a class="headerlink" href="#content-1131" title="Permanent link">&para;</a></h3>
+<p><em>Content-[11:39] 材料力学并非研究所有变形固体，而是研究</em><em>构件</em>*（如风力发电机、房屋的梁、柱、楼板）。</p>
+<p><em>Content-[11:50] 在构件中，更进一步只研究</em><em>杆件</em>*（细长构件，如立柱、梁、转轴）。</p>
+<p><em>Content-[12:10] 结论：材料力学最终研究对象是</em><em>杆件</em>*。</p>
+<h3 id="content-1231">杆件的受力类型（五种外力作用）*Content-[12:31]<a class="headerlink" href="#content-1231" title="Permanent link">&para;</a></h3>
+<p>*Content-[12:31] 根据受力不同，杆件分为五种外力作用，可分为三组：</p>
+<ol>
+<li><strong>拉压杆</strong> <em>Content-[12:43]：承受</em><em>拉伸</em><em>和</em><em>压缩</em>*作用</li>
+<li><strong>梁</strong> <em>Content-[12:51]：主要承受</em><em>弯曲</em><em>和</em><em>剪切</em>*作用</li>
+<li><strong>轴</strong> <em>Content-[13:02]：主要承受</em><em>扭转</em>*作用（如发动机带动轴旋转）</li>
+</ol>
+<h3 id="content-1318">研究内容：强度、刚度、稳定性 *Content-[13:18]<a class="headerlink" href="#content-1318" title="Permanent link">&para;</a></h3>
+<p>*Content-[13:25] 对于三种基本杆件，主要研究三个方面：</p>
+<ol>
+<li><strong>强度</strong> *Content-[13:30]：承受多大外力而不破坏</li>
+<li><strong>刚度</strong> *Content-[13:37]：有多“硬”，抵抗变形的能力<ul>
+<li><strong>示例</strong>：轴刚度不够，旋转时会像麻花一样扭在一起</li>
+</ul>
+</li>
+<li><strong>稳定性</strong> <em>Content-[14:00]：只考虑</em><em>压杆</em>*的稳定性<ul>
+<li><strong>示例</strong>：细长压杆受力时，可能尚未断裂但已发生<strong>弯曲</strong>，从而失稳破坏</li>
+</ul>
+</li>
+</ol>
+<p><em>Content-[14:57] 总结：拉压杆、梁、轴这三种基本构件，除稳定性只针对压杆外，主要研究其</em><em>强度和刚度</em>*。</p>
+<h2 id="_2">五、基本构件知识点详解<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="1-content-1557">1. 轴向拉压杆 *Content-[15:57]<a class="headerlink" href="#1-content-1557" title="Permanent link">&para;</a></h3>
+<p>学习轴向拉压杆需要掌握四个核心知识点：</p>
+<ol>
+<li><strong>计算轴力</strong> <em>Content-[17:22]：将杆件切开，研究其内部的</em><em>内力</em>*（轴力）。</li>
+<li><strong>画轴力图</strong> *Content-[17:26]：直观展示杆件各段的受力情况。<ul>
+<li><em>Content-[16:36] 注意：计算和画轴力图属于<strong>静力学</strong>的受力分析部分。</em></li>
+</ul>
+</li>
+<li><strong>计算拉压应力</strong> <em>Content-[17:28]：引入</em><em>拉压应力</em><em>概念，用于验算</em><em>强度</em>*。</li>
+<li><strong>计算轴向变形</strong> <em>Content-[17:40]：计算轴向的变形量，用于验算</em><em>刚度</em>*。</li>
+</ol>
+<h3 id="2-content-1750">2. 扭转（圆轴） *Content-[17:50]<a class="headerlink" href="#2-content-1750" title="Permanent link">&para;</a></h3>
+<p><em>Content-[17:56] 工程力学中只研究</em><em>圆轴</em><em>的扭转，分为</em><em>空心圆轴</em><em>和</em><em>实心圆轴</em>*。</p>
+<p>学习圆轴扭转需要掌握四个核心知识点：</p>
+<ol>
+<li><strong>计算扭矩</strong> <em>Content-[19:18]：研究杆件内部的</em><em>扭矩</em>*大小。</li>
+<li><strong>画扭矩图</strong> *Content-[19:22]：直观展示各段的扭矩。<ul>
+<li><em>Content-[18:40] 计算和画扭矩图属于<strong>静力学</strong>部分。</em></li>
+</ul>
+</li>
+<li><strong>计算切应力</strong> <em>Content-[19:25]：引入</em><em>切应力</em><em>，用于验算</em><em>强度</em>*。</li>
+<li><strong>计算扭转变形（扭转角）</strong> <em>Content-[19:28]：用于验算</em><em>刚度</em>*。</li>
+</ol>
+<h3 id="3-content-1938">3. 弯曲（梁） *Content-[19:38]<a class="headerlink" href="#3-content-1938" title="Permanent link">&para;</a></h3>
+<p><em>Content-[19:44] 梁受外力作用时，会产生</em><em>弯曲</em><em>和</em><em>剪切</em>*两种作用。</p>
+<p><em>Content-[19:51] 两种作用的影响：
+-   *</em>弯曲<strong>：可能导致梁向下或向上凸，使一侧被拉裂，另一侧被压碎。
+-   **剪切</strong>：支座处的支撑力与外部载荷形成类似剪刀的作用，可能导致该部位被剪坏。</p>
+<p>学习梁需要掌握四个核心知识点：</p>
+<ol>
+<li><strong>计算剪力和弯矩</strong> <em>Content-[21:36]：引入</em><em>剪力</em><em>和</em><em>弯矩</em>*两个参数来描述梁的内力。</li>
+<li><strong>画剪力图和弯矩图</strong> *Content-[20:56]：展示整个梁上剪力和弯矩的分布。<ul>
+<li><em>Content-[21:00] 计算和画图属于<strong>受力分析</strong>部分。</em></li>
+</ul>
+</li>
+<li><strong>计算应力</strong> *Content-[21:13]：<ul>
+<li><strong>正应力</strong>：由<strong>弯矩</strong>引起，用于验算<strong>强度</strong>。</li>
+<li><strong>切应力</strong>：由<strong>剪力</strong>引起，用于验算<strong>强度</strong>。</li>
+</ul>
+</li>
+<li><strong>计算变形（挠度和转角）</strong> <em>Content-[21:25]：引入</em><em>挠度</em><em>和</em><em>转角</em><em>，用于验算</em><em>刚度</em>*。</li>
+</ol>
+<h2 id="content-2156">六、组合变形 *Content-[21:56]<a class="headerlink" href="#content-2156" title="Permanent link">&para;</a></h2>
+<p><em>Content-[22:02] 实际工程中，构件常承受</em><em>组合变形</em>*，即同时承受两种或以上作用。</p>
+<h3 id="content-2204">类型一：轴向力 + 弯曲/剪切 *Content-[22:04]<a class="headerlink" href="#content-2204" title="Permanent link">&para;</a></h3>
+<p><em>Content-[22:10] 示例：构件既受轴向拉伸/压缩，又受弯曲和剪切作用。
+*Content-[22:23] 处理方法：分开分析，然后叠加。
+1.  *</em>轴向力<strong>：单独计算</strong>轴力** → 画<strong>轴力图</strong> → 计算<strong>应力</strong>、<strong>应变</strong>。
+2.  <strong>弯曲/剪切</strong>：单独计算<strong>剪力</strong>和<strong>弯矩</strong> → 画<strong>剪力图</strong>和<strong>弯矩图</strong> → 计算<strong>正应力</strong>和<strong>切应力</strong>。
+3.  <strong>综合评估</strong>：利用<strong>强度理论</strong>和<strong>应力状态</strong>概念，对复合外力进行综合评估，得到整体的<strong>强度</strong>和<strong>刚度</strong>。</p>
+<h3 id="content-2403">类型二：弯曲 + 扭转 *Content-[24:03]<a class="headerlink" href="#content-2403" title="Permanent link">&para;</a></h3>
+<p><em>Content-[24:13] 示例：门把手模型。在C点施加向下的力开门，研究AB杆的强度。
+*Content-[24:34] 处理方法：
+1.  *</em>力平移<strong>：将C点的力平移到B点（静力学知识）。
+2.  **形成复合力</strong>：平移到B点后，产生一个向下的力和一个附加的<strong>力偶矩</strong>（扭矩）。
+3.  <strong>分开分析</strong>：
+    -   向下的力导致AB杆产生<strong>弯曲变形</strong>。
+    -   力偶矩导致AB杆产生<strong>扭转变形</strong>。
+4.  <strong>综合评估</strong>：将弯曲时的应力和扭转时的应力分开计算，然后利用<strong>强度理论</strong>和<strong>应力状态</strong>进行综合评估。</p>
+<h2 id="content-2525">七、压杆稳定性 *Content-[25:25]<a class="headerlink" href="#content-2525" title="Permanent link">&para;</a></h2>
+<p><em>Content-[25:30] *</em>重要区别**：压杆稳定与之前学习的轴向拉压杆不同。</p>
+<ul>
+<li><strong>轴向拉压杆（短杆）</strong> <em>Content-[25:34]</em>：破坏为<strong>强度破坏</strong>，即杆件被压断。</li>
+<li><strong>细长压杆（长杆）</strong> <em>Content-[25:57]</em>：破坏称为<strong>失稳</strong>。破坏不是因为强度不够，而是由于杆件无法保持原有的直线平衡状态而发生侧向弯曲。</li>
+</ul>
+<p>*Content-[26:16] 常见理解：一根很长的杆，上面的重物可能不会压坏它，但杆自身无法保持平衡而破坏。</p>
+<h3 id="content-2630">研究方法 *Content-[26:30]<a class="headerlink" href="#content-2630" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p><strong>欧拉公式</strong> <em>Content-[26:35]</em>：用于计算<strong>临界载荷</strong>。</p>
+<ul>
+<li>当作用载荷超过<strong>临界载荷</strong>时，杆件即发生<strong>失稳</strong>。</li>
+<li>在临界载荷范围内，杆件可保持稳定状态。</li>
+</ul>
+</li>
+<li>
+<p><strong>提高稳定性的措施</strong> <em>Content-[27:04]</em>：主要通过分析欧拉公式中的参数入手，寻找提高临界载荷的方法。</p>
+<ul>
+<li><em>Content-[27:14] 考试提示：压杆稳定部分内容主要以<strong>选择题、填空题</strong>和<strong>判断题</strong>为主。</em></li>
+</ul>
+</li>
+</ol>
+<h2 id="content-2717">八、总结 *Content-[27:17]<a class="headerlink" href="#content-2717" title="Permanent link">&para;</a></h2>
+<p><em>Content-[27:17] 以上内容覆盖了工程力学</em><em>90%以上</em>*的核心内容框架。</p>
+<p>*Content-[27:23] 学习方法：在掌握此框架的基础上，将具体知识点在学习正课时填入相应的位置。对于掌握不好的部分可以着重复习。</p>
+<hr />
+<h2 id="ai">AI 总结<a class="headerlink" href="#ai" title="Permanent link">&para;</a></h2>
+<p>本视频系统梳理了《工程力学》的整体知识框架。课程首先明确了工程力学的定义，即应用<strong>理论力学（静力学）</strong>和<strong>材料力学</strong>的基本理论，对结构进行<strong>强度、刚度、稳定性</strong>验算，并兼顾<strong>安全、实用、经济</strong>三大设计原则。</p>
+<p>视频的核心内容可概括为以下逻辑链条：</p>
+<ol>
+<li><strong>基础（静力学）</strong>：学习如何对物体进行<strong>受力分析</strong>，将复杂结构简化并建立<strong>力系</strong>，利用<strong>平衡方程</strong>求解未知力。这是后续分析的基础。</li>
+<li><strong>核心（材料力学）</strong>：将研究对象聚焦于三种基本<strong>杆件</strong>：<strong>拉压杆</strong>、<strong>梁</strong>、<strong>轴</strong>。<ul>
+<li><strong>拉压杆</strong>：研究<strong>轴力</strong>、<strong>应力</strong>和<strong>轴向变形</strong>。</li>
+<li><strong>梁（弯曲/剪切）</strong>：研究<strong>剪力</strong>、<strong>弯矩</strong>、<strong>正应力</strong>、<strong>切应力</strong>、<strong>挠度</strong>和<strong>转角</strong>。</li>
+<li><strong>轴（扭转）</strong>：研究<strong>扭矩</strong>、<strong>切应力</strong>和<strong>扭转变形</strong>。</li>
+</ul>
+</li>
+<li><strong>应用（组合变形与压杆稳定）</strong>：<ul>
+<li><strong>组合变形</strong>：处理同时受多种载荷（如轴向力+弯曲、弯曲+扭转）的复杂情况，通过<strong>强度理论</strong>和<strong>应力状态</strong>进行综合评估。</li>
+<li><strong>压杆稳定</strong>：专门研究<strong>细长压杆</strong>的<strong>失稳</strong>问题，使用<strong>欧拉公式</strong>计算<strong>临界载荷</strong>。</li>
+</ul>
+</li>
+</ol>
+<p><strong>核心建议</strong>：视频提供了一个清晰的知识地图。建议读者先掌握此框架，明确各部分之间的关系（如静力学是基础、强度与刚度是核心目标），然后在学习具体章节时填充细节知识，可达到事半功倍的复习效果。</p>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+ * @Author: Kinlauu 13680211888@163.com
+ * @Date: 2026-02-25 03:21:28
+ * @LastEditors: Kinlauu 13680211888@163.com
+ * @LastEditTime: 2026-02-25 21:57:55
+ * @FilePath: \mkdocs\docs\overrides\partials\comments.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="%E6%9C%BA%E6%A2%B0%E5%A4%8D%E4%B9%A0%E6%B8%85%E5%8D%95.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: 拓竹结构岗 · 备考复习清单">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                拓竹结构岗 · 备考复习清单
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%85%A5%E9%97%A8.html" class="md-footer__link md-footer__link--next" aria-label="下一页: 理论力学入门概念与应用笔记">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                理论力学入门概念与应用笔记
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["announce.dismiss", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "search.share", "navigation.indexes", "content.tabs.link", "content.tooltips", "content.code.copy", "content.code.select", "content.action.edit", "content.action.view", "content.code.annotate", "content.action.edit", "content.action.view", "content.code.copy", "navigation.footer", "navigation.tabs", "content.code.annotate", "navigation.indexes", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/javascripts/extra.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../../javascripts/geren.js"></script>
+      
+        <script src="../../../javascripts/mathjax-config.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
